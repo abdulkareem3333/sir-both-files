@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="p-3 m-0 border-0 bd-example m-0 border-0 bd-example-row">
+    <div class="container" style="background-color: azure;" >
+        <div class="row">
+          <div class="col-12">main cloumn 12</div>
+          <div class="col-4 border">
+
+<!-- tabel -->
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+       
+      </tr>
+    </thead>
+    <tbody id="result">
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+     
+      </tr>
+      
+    </tbody>
+  </table>
+<!-- endtable -->
+
+          </div>
+          <div class="col-8 border">
+<!-- form -->
+<div class="row g-3 align-items-center">
+    <div class="col-auto">
+      <label for="inputPassword6" class="col-form-label">First name</label>
+    </div>
+    <div class="col-auto">
+      <input type="text" id="firstname" class="form-control" aria-describedby="passwordHelpInline">
+    </div>
+
+    <div class="col-auto">
+        <label class="col-form-label">Last Name</label>
+      </div>
+      <div class="col-auto">
+        <input type="text" id="lastname" class="form-control" aria-describedby="passwordHelpInline">
+      </div>
+     <center><button type="button" class="btn btn-secondary" onclick="addNewRow()">Add Data</button></center> 
+  </div>
+<!-- endform -->
+
+          </div>
+        </div>
+      </div>
+      <script src="script.js"></script>
+    
+</body>
+</html>
